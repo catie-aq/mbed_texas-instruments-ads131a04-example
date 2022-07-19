@@ -2,5 +2,9 @@
 .mbed
 projectfiles
 *.py*
+mbed-os/
+texas-instruments-ads131a04/
+custom_targets.json
+zest-core-*/
 
 # Do NOT ignore files below

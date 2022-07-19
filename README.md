@@ -75,6 +75,20 @@ Additionnaly, you can generate CMAKE files for IDE like Clion:
 mbed export -i cmake_gcc_arm
 ```
 
+## Plotting datas
+
+To plot datas from serial, first install [SerialPlot](https://hackaday.io/project/5334-serialplot-realtime-plotting-software/log/192838-serialplot-v012-release).
+
+Then open SerialPlot, and import config from `<this_repository>/SerialPlot/config.ini`.
+
+Then open a COM serial to the zest core, go to "Commands" pannel, and send the "Enable" command.
+
+The zest core will now send raw data, that SerialPlot will plot in real time.
+
+
+
+
+
 Debug on the target device with a debug probe, eg. Segger J-Link and
 [Ozone](https://www.segger.com/products/development-tools/ozone-j-link-debugger)
 software.

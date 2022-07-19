@@ -6,5 +6,10 @@ mbed-os/
 texas-instruments-ads131a04/
 custom_targets.json
 zest-core-*/
+.idea/
+CMakeLists.txt
+GettingStarted.html
+cmake-build-debug/
+mbed_config.h
 
 # Do NOT ignore files below

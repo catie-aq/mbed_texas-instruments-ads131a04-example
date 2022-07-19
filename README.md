@@ -51,6 +51,7 @@ cp zest-core-stm32l4a6rg/custom_targets.json .
 Define your target (eg. `ZEST_CORE_STM32L4A6RG`) and toolchain:
 
 ```shell
+mbed config root .
 mbed target ZEST_CORE_STM32L4A6RG
 mbed toolchain GCC_ARM
 ```

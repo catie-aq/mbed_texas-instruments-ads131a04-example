@@ -48,7 +48,7 @@ mbed compile
 ```
 
 Program the target device (eg. `STM32L4A6RG` for the Zest_Core_STM32L4A6RG) with a J-Link
-debug probe and [`sixtron_flash`](https://gitlab.com/catie_6tron/6tron-flash) tool:
+debug probe and [`sixtron_flash`](https://github.com/catie-aq/6tron-flash) tool:
 ```shell
 sixtron_flash STM32L4A6RG BUILD/ZEST_CORE_STM32L4A6RG/GCC_ARM/texas-instruments-ads131a04-example.elf
 ```
